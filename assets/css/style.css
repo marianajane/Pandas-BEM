@@ -1,0 +1,142 @@
+.row:before, .row:after {
+  content: "";
+  display: table;
+  margin-top: 3vh; }
+.row:after {
+  clear: both; }
+
+[class*="col-"] {
+  min-height: 7px;
+  padding: 12px;
+  float: left; }
+
+.col-1 {
+  width: 8.33333%; }
+
+.col-2 {
+  width: 16.66667%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33333%; }
+
+.col-5 {
+  width: 41.66667%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33333%; }
+
+.col-8 {
+  width: 66.66667%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33333%; }
+
+.col-11 {
+  width: 91.66667%; }
+
+.col-12 {
+  width: 100%; }
+
+.col-1-offset {
+  margin-left: 8.33333%; }
+
+.col-2-offset {
+  margin-left: 16.66667%; }
+
+.col-3-offset {
+  margin-left: 25%; }
+
+.col-4-offset {
+  margin-left: 33.33333%; }
+
+.col-5-offset {
+  margin-left: 41.66667%; }
+
+.col-6-offset {
+  margin-left: 50%; }
+
+.col-7-offset {
+  margin-left: 58.33333%; }
+
+.col-8-offset {
+  margin-left: 66.66667%; }
+
+.col-9-offset {
+  margin-left: 75%; }
+
+.col-10-offset {
+  margin-left: 83.33333%; }
+
+.col-11-offset {
+  margin-left: 91.66667%; }
+
+.col-12-offset {
+  margin-left: 100%; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto; }
+
+li {
+  display: inline-block;
+  border: 1px solid orange;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px; }
+
+a {
+  text-decoration: none; }
+
+.image-size div img {
+  width: 100%; }
+
+p {
+  text-align: justify; }
+
+footer {
+  background-color: orange; }
+  footer p {
+    margin: 2vh; }
+
+.text {
+  font-family: "Bellefair", serif; }
+  .text--tittle {
+    font-family: "Fresca", sans-serif;
+    font-size: 1.5em;
+    text-align: left;
+    padding: 2vh; }
+  .text__right {
+    text-align: center; }
+  .text__right--menu {
+    margin: 1vh;
+    padding: 3vh; }
+    .text__right--menu a {
+      font-size: 1em; }
+  .text__background--center {
+    text-align: center;
+    cursor: pointer;
+    font-size: 1em; }
+  .text--white {
+    color: whitesmoke;
+    font-family: "Fresca", sans-serif;
+    text-align: center; }
+  .text--center p {
+    text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
